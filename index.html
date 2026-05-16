@@ -3,143 +3,298 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FB | Soluções em TI</title>
+  <title>Felipe Campos Borges | TI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- Cabeçalho -->
-  <header>
-    <div class="container">
-      <h1 class="logo">FELIPE CAMPOS BORGES - TI</h1>
-      <button class="menu-toggle">&#9776;</button>
-      <nav class="nav">
-        <ul class="nav-links">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Habilidades</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
 
-  <!-- Seção Home -->
-  <section id="home" class="hero">
-    <div class="container hero-flex">
-      <div class="hero-text">
-        <h2>Olá, esse sou eu, prazer!</h2>
-        <p>Eu resido na região Metropolitana do Rio Grande do Sul/BR. Possuo Conhecimento em linguagens de programações banco de dados e manutenção de hardwares.</p>
-        <p>Abaixo tem mais informações sobre mim. Mas caso queira entrar em contato comigo clique aqui &#128071;.</p>
-        <a href="#contato" class="btn">Entre em contato comigo!</a>
+<header id="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-dot"></span>
+      <span>FCB</span>
+    </a>
+    <button class="menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Habilidades</a></li>
+        <li><a href="#contato" class="nav-cta">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-flex">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponível para oportunidades
       </div>
+      <h1>
+        Felipe<br>
+        <em>Campos</em><br>
+        Borges
+      </h1>
+      <p class="hero-sub">Profissional de TI — Full Stack · Suporte · Hardware</p>
+      <p class="hero-desc">Resido na Região Metropolitana do Rio Grande do Sul. 
+      <br>SExperiência em linguagens de programação Front-end e Full Stack e manutenção de hardwares.</p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn-primary">Entre em contato</a>
+        <a href="#sobre" class="btn-ghost">Saiba mais</a>
+      </div>
+    </div>
 
-      <div class="hero-img">
-        <div class="carousel">
-          <div class="slides">
-            <img src="foto1.jpg" alt="Foto 1">
-            <img src="foto2.jpg" alt="Foto 2">
-            <img src="foto3.jpg" alt="Foto 3">
+    <div class="hero-visual">
+      <div class="carousel-wrapper">
+        <div class="carousel-frame">
+          <div class="carousel">
+            <div class="slides">
+              <img src="foto1.jpg" alt="Felipe Campos Borges">
+              <img src="foto2.jpg" alt="Felipe Campos Borges">
+              <img src="foto3.jpg" alt="Felipe Campos Borges">
+            </div>
           </div>
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
+          <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+          <button class="carousel-btn next" aria-label="Próximo">&#10095;</button>
+          <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="float-tag tag-1">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          Full Stack Dev
+        </div>
+        <div class="float-tag tag-2">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          Inglês Avançado
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-<!-- Seção Sobre -->
-<section id="sobre">
-  <div class="container sobre-box">
-    <h2>Sobre Mim</h2>
-    <p>Prezados,</p>
-    <p>Me chamo Felipe Campos Borges, formado como Técnico em Eletrotécnica e atualmente cursando o Tecnólogo em Análise e Desenvolvimento de Sistemas pela Ulbra. Possuo experiência no suporte ao cliente por meio de WhatsApp, e-mail e ligações telefônicas, além de atuar na manutenção eletrônica de hardwares.</p>
-    <p>Sou uma pessoa comprometida com o aprendizado contínuo e busco constantemente atualizar meus conhecimentos sobre novas tecnologias. Tenho facilidade em resolver problemas de forma prática e gosto de colaborar em ambientes que valorizam a inovação e o crescimento profissional.</p>
-    <p>Estou à disposição para discutir como posso contribuir para sua equipe ou projeto. Agradeço pela consideração e aguardo seu contato.</p>
-    <p>Atenciosamente,<br>Felipe Campos Borges.</p>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>scroll</span>
   </div>
 </section>
 
-  <!-- Seção Habilidades -->
-  <section id="servicos" class="servicos">
-    <div class="container">
-      <h2>Habilidades</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Hardwares</h3>
-          <p>Técnico Eletrotécnico/Eletrônica - Instalação e manutenção em Hardwares.</p>
-        </div>
-        <div class="card">
-          <h3>Desenvolvedor Full Stack</h3>
-          <p>Projetos em programação backend e frontend.</p>
-          <p>Linguagens: JAVA, PYTHON, CSS, PHP e entre outras.</p>
-        </div>
-        <div class="card">
-          <h3>Suporte Técnico</h3>
-          <p>Atendimento ágil e eficiente via whatsapp, e-mail e presencial.</p>
-        </div>
-        <div class="card">
-          <h3>Idioma: Inglês</h3>
-          <p>Escrita (Avançado), Leitura(Avançado), Tradução(Avançado) e Comunicação(Intermediário).</p>
+<section id="sobre" class="sobre">
+  <div class="container">
+    <div class="section-label">01 — Sobre Mim</div>
+    <div class="sobre-grid">
+      <div class="sobre-titulo">
+        <h2>Comprometido com o aprendizado <em>contínuo</em></h2>
+      </div>
+      <div class="sobre-conteudo">
+        <p>Me chamo Felipe Campos Borges, formado em Análise e Desenvolvimento de Sistemas pela Ulbra.</p>
+        <p>Tenho experiência prática com desenvolvimento Front-End, criando interfaces modernas, responsivas e com foco na experiência do usuário. Trabalho com HTML, CSS, JavaScript e frameworks atuais, sempre buscando código limpo e resultados visuais de qualidade.</p>
+        <p>Meu objetivo é atuar profissionalmente na área de Front-End, contribuindo com equipes que valorizam boas práticas, inovação e crescimento contínuo. Estou em constante aprendizado e sempre aberto a novos desafios.</p>
+        <div class="sobre-stats">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Anos de experiência</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Linguagens</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">RS</span>
+            <span class="stat-label">Região Metropolitana</span>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contato -->
-  <section id="contato" class="contato">
-    <div class="container">
-      <h2>Contato</h2>
-      <p>Felipe Campos Borges</p>
-      <p>Portfólio: https://github.com/Lipex-cyber</p>
-      <p>E-mail: felipecamposborgesinf@gmail.com</p>
-      <p>Telefone: (51) 99604-8894</p>
-      <br>
-      <div class="links-contato">
-        <a href="https://github.com/Lipex-cyber" target="_blank">💻 GitHub</a>
-        <a href="mailto:felipecamposborgesinf@gmail.com">📧 E-mail</a>
-        <a href="https://wa.me/5551996048894" target="_blank">💬 WhatsApp</a>
+<section id="servicos" class="habilidades">
+  <div class="container">
+    <div class="section-label">02 — Habilidades</div>
+    <h2 class="section-titulo">O que eu <em>faço</em></h2>
+    <div class="skills-grid">
+
+      <!-- 01 Front-End (destaque) -->
+      <div class="skill-card featured">
+        <div class="skill-num">01</div>
+        <div class="skill-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        </div>
+        <h3>Desenvolvedor Front-End</h3>
+        <p>Criação de interfaces modernas, responsivas e centradas na experiência do usuário, com atenção a UI e UX.</p>
+        <div class="skill-tags-row">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">UI/UX</span>
+        </div>
       </div>
+
+      <!-- 02 Full Stack -->
+      <div class="skill-card">
+        <div class="skill-num">02</div>
+        <div class="skill-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </div>
+        <h3>Desenvolvedor Full Stack</h3>
+        <p>Projetos em programação backend e frontend com Java, Python, CSS, PHP e outras linguagens.</p>
+        <div class="skill-tags-row">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">PHP</span>
+        </div>
+      </div>
+
+      <!-- 03 Inglês -->
+      <div class="skill-card">
+        <div class="skill-num">03</div>
+        <div class="skill-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+        </div>
+        <h3>Idioma: Inglês</h3>
+        <p>Escrita e leitura avançadas, tradução e comunicação em nível intermediário-avançado.</p>
+        <div class="skill-tag">Advanced</div>
+      </div>
+
+      <!-- 04 Trabalho em equipe -->
+      <div class="skill-card">
+        <div class="skill-num">04</div>
+        <div class="skill-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <h3>Trabalho em Equipe</h3>
+        <p>Colaboração ativa em times multidisciplinares, comunicação clara e comprometimento com entregas e prazos.</p>
+        <div class="skill-tag">Colaboração</div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Rodapé --> 
-  <footer> 
-    <div class="container"> 
-      <p>&copy; 2025 TechSolvers. Todos os direitos reservados.</p> 
-    </div> 
-  </footer>
-  
-  <!-- Carrossel JS -->
-  <script>
-    const slides = document.querySelector('.carousel .slides');
-    const images = document.querySelectorAll('.carousel .slides img');
-    const prev = document.querySelector('.carousel .prev');
-    const next = document.querySelector('.carousel .next');
-    let index = 0;
+<section id="contato" class="contato">
+  <div class="container">
+    <div class="section-label light">03 — Contato</div>
+    <h2 class="contato-titulo">Vamos <em>trabalhar</em><br>juntos?</h2>
+    <p class="contato-sub">Estou disponível para novos projetos, oportunidades e colaborações.</p>
 
-    function showSlide(n) {
-      index = (n + images.length) % images.length;
-      slides.style.transform = `translateX(${-index * 100}%)`;
-    }
+    <div class="contato-cards">
 
-    prev.addEventListener('click', () => showSlide(index - 1));
-    next.addEventListener('click', () => showSlide(index + 1));
+      <!-- LinkedIn (novo - primeiro) -->
+      <a href="https://www.linkedin.com/in/felipe-campos-borges-7ba6b517b/" target="_blank" class="contato-card">
+        <div class="cc-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </div>
+        <div class="cc-info">
+          <span class="cc-label">LinkedIn</span>
+          <span class="cc-value">felipe-campos-borges</span>
+        </div>
+        <span class="cc-arrow">→</span>
+      </a>
 
-    setInterval(() => showSlide(index + 1), 5000);
-  </script>
+      <!-- Portfólio (novo - segundo) -->
+      <a href="https://lipex-cyber.github.io/felipe_borges/" target="_blank" class="contato-card">
+        <div class="cc-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </div>
+        <div class="cc-info">
+          <span class="cc-label">Portfólio</span>
+          <span class="cc-value">Felipe Borges | Desenvolvedor Web</span>
+        </div>
+        <span class="cc-arrow">→</span>
+      </a>
 
-  <!-- Menu hambúrguer JS -->
-  <script>
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav');
+      <!-- E-mail -->
+      <a href="mailto:felipecamposborgesinf@gmail.com" class="contato-card">
+        <div class="cc-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </div>
+        <div class="cc-info">
+          <span class="cc-label">E-mail</span>
+          <span class="cc-value">felipecamposborgesinf@gmail.com</span>
+        </div>
+        <span class="cc-arrow">→</span>
+      </a>
 
-    menuToggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
+      <!-- WhatsApp -->
+      <a href="https://wa.me/5551996048894" target="_blank" class="contato-card">
+        <div class="cc-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </div>
+        <div class="cc-info">
+          <span class="cc-label">WhatsApp</span>
+          <span class="cc-value">(51) 99604-8894</span>
+        </div>
+        <span class="cc-arrow">→</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span class="footer-logo">FCB</span>
+    <p>&copy; 2025 Felipe Campos Borges. Todos os direitos reservados.</p>
+    <span class="footer-loc">Porto Alegre · RS</span>
+  </div>
+</footer>
+
+<script>
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  const menuToggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav');
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    menuToggle.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => {
+      nav.classList.remove('active');
+      menuToggle.classList.remove('open');
     });
-  </script>
+  });
 
+  const slides = document.querySelector('.slides');
+  const images = document.querySelectorAll('.slides img');
+  const dots = document.querySelectorAll('.dot');
+  let idx = 0;
+
+  function goTo(n) {
+    idx = (n + images.length) % images.length;
+    slides.style.transform = `translateX(${-idx * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+  }
+
+  document.querySelector('.prev').addEventListener('click', () => goTo(idx - 1));
+  document.querySelector('.next').addEventListener('click', () => goTo(idx + 1));
+  dots.forEach((d, i) => d.addEventListener('click', () => goTo(i)));
+  setInterval(() => goTo(idx + 1), 5000);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.skill-card, .sobre-grid, .contato-card, .sobre-stats, .contato-titulo').forEach(el => observer.observe(el));
+</script>
 </body>
 </html>
-
-
