@@ -419,6 +419,8 @@ header.scrolled {
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 18px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .sobre-stats {
