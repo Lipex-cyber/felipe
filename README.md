@@ -14,7 +14,7 @@ https://lipex-cyber.github.io/felipe_borges/
 
 ## 📌 Sobre o projeto
 
-Este projeto foi desenvolvido para apresentar meu perfil profissional como **Desenvolvedor Front-End / Full Stack**, destacando minhas habilidades, experiência e formas de contato de maneira visual e interativa.
+Este projeto foi desenvolvido para apresentar meu perfil profissional como **Analista e Desenvolvedor de Sistemas**, destacando minhas habilidades, experiência e formas de contato de maneira visual e interativa.
 
 A proposta foi criar uma landing page moderna com:
 
